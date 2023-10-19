@@ -26,7 +26,7 @@ class Calculations
 	}
 
 	double calculateSD() {
-		return sqrt(((Num1 - Mean) **2 + (Num2 - Mean) **2 + (num3 - Mean) * *2 + (num4 - Mean) * *2) / 4.0);
+		return sqrt(((Num1 - Mean)**2 + (Num2 - Mean)**2 + (num3 - Mean)**2 + (num4 - Mean)**2) / 4.0);
 	}
 }
 #endif Calculations_H
